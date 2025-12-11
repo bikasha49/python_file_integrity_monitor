@@ -54,11 +54,11 @@ This project demonstrates the core concept of **Integrity** within the CIA Triad
 
 ### 1. Real-Time Detection ("The Money Shot")
 *The FIM detects a file modification instantly as it happens. The split-screen view shows the attack commands (left) and the automated detection (right).*
-![Real Time Detection](https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor/blob/main/demo.png?raw=true)
+### ![Real Time Alerts](https://github.com/bikasha49/Python-File-Integrity-Monitor/raw/6751b2acf466efd1dcdd418ba972c903e7f3d611/demo.png)
 
 ### 2. Baseline Creation
 *Establishing the initial "Known Good" state. The script calculates SHA-512 hashes for all target files to create a fingerprint.*
-![Baseline Creation](https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor/blob/main/Baseline.png?raw=true)
+### ![Baseline Collection](https://github.com/bikasha49/Python-File-Integrity-Monitor/raw/6751b2acf466efd1dcdd418ba972c903e7f3d611/Baseline.png)
 
 ## 💻 How to Run
 
