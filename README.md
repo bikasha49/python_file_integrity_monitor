@@ -64,14 +64,19 @@ This project demonstrates the core concept of **Integrity** within the CIA Triad
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor.git](https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor.git)
+   git clone https://github.com/bikasha49/Python-File-Integrity-Monitor.git
 
-### 2. Baseline Creation
-*Establishing the initial "Known Good" state. The script calculates SHA-512 hashes for all target files to create a fingerprint.*
-![Baseline Creation](https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor/blob/main/Baseline.png?raw=true)
-
-## 💻 How to Run
-
-1. **Clone the repository:**
+2. **Navigate to the directory:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor.git](https://github.com/YOUR_USERNAME/Python-File-Integrity-Monitor.git)
+   cd Python-File-Integrity-Monitor
+3. **Run the script:**
+   ```bash
+   python3 fim.py
+4. **Initialize the Baseline**
+   Select **Option A**. The script will calculate the hash of every file in the `Target` folder and save it to `baseline.txt`. This teaches the tool what "normal" looks like.
+
+5. **Start Monitoring**
+   Select **Option B**. The tool will load the saved baseline and begin continuously checking files for changes.
+
+5. **Verify Alerts**
+   While the script is running, open a second terminal and modify, add, or delete files in the `Target` folder. You will see real-time alerts in the monitoring window.
