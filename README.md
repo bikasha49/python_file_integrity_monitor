@@ -24,7 +24,7 @@ The project demonstrates core defensive security concepts used in SOC environmen
 
 ### How It Works
 * The tool scans a target directory.
-* It generates SHA512 hashes for each file.
+* It generates SHA-512 hashes for each file.
 * It stores these hashes as a trusted baseline.
 * It continuously monitors the directory for changes.
 * It compares current file hashes against the baseline.
@@ -38,7 +38,7 @@ The project demonstrates core defensive security concepts used in SOC environmen
 ### Environment
 * Operating system Kali Linux
 * Programming language Python 3
-* Hashing algorithm SHA512
+* Hashing algorithm SHA-512
 
 ### Project Structure
 * baseline.txt stores trusted file hashes
@@ -58,7 +58,7 @@ This section provides execution proof of the monitoring workflow.
 Each screenshot demonstrates a real security outcome produced by the tool.
 
 #### Baseline Creation:
-Shows successful generation of trusted file hashes.
+Shows successful generation of trusted file hashing.
 <p align="left">
   <img src="https://github.com/bikasha49/python_file_integrity_monitor/blob/eba1bf311ad936367f736f6428f0a45c0a870ae4/images/screenshot_fim_baseline_collected.png" width="60%" style="margin-left:60%;">
 </p>
