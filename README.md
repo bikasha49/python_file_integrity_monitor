@@ -24,7 +24,7 @@ The project demonstrates core defensive security concepts used in SOC environmen
 
 ### How It Works
 * The tool scans a target directory.
-* It generates SHA256 hashes for each file.
+* It generates SHA512 hashes for each file.
 * It stores these hashes as a trusted baseline.
 * It continuously monitors the directory for changes.
 * It compares current file hashes against the baseline.
@@ -38,7 +38,7 @@ The project demonstrates core defensive security concepts used in SOC environmen
 ### Environment
 * Operating system Kali Linux
 * Programming language Python 3
-* Hashing algorithm SHA256
+* Hashing algorithm SHA512
 
 ### Project Structure
 * baseline.txt stores trusted file hashes
