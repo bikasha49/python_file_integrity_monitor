@@ -6,7 +6,7 @@ It detects unauthorized file changes by comparing current file hashes against a 
 The project demonstrates core defensive security concepts used in SOC environments.
 ### Workflow Diagram 
 <p align="left">
-  <img src="https://github.com/bikasha49/python_file_integrity_monitor/blob/eba1bf311ad936367f736f6428f0a45c0a870ae4/images/execution_flow_chart.png" width="60%" style="margin-left:60%;">
+  <img src="https://github.com/bikasha49/python_file_integrity_monitor/blob/dfe78a2ddb082c31dec67a78d353efe8ac9d6676/images/execution_flow_chart.png" width="60%" style="margin-left:60%;">
 </p>
 
 ### Project Objective
